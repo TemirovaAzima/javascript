@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+</head>
+<body>
+<button
+        onclick="
+        alert(`Savatchadagi maxsulot soni: ${jamiQiymat}`)"
+>
+    Jami Qiymat korsatish
+</button>
+<button
+        onclick="
+        jamiQiymat++
+        alert(`Savatchadagi maxsulot soni: ${jamiQiymat}`)
+        "
+>
+    Savatchaga qoshish
+</button>
+<button
+        onclick="
+        jamiQiymat = jamiQiymat + 2
+        // jamiQiymat +=2
+        alert(`Savatchaga qoshilgan maxsulot soni: ${jamiQiymat}`)
+"
+>
+    +2
+</button>
+<button
+         onclick="
+         // jamiQiymat = jamiQiymat + 3
+         jamiQiymat +=3
+         alert(`Savatchaga qoshilgan maxsulot soni: ${jamiQiymat}`)
+"
+>
+    +3
+</button>
+<button
+        onclick="
+        jamiQiymat = 0
+        alert(`Savatchani tozalandi`)
+"
+>Savatchani boshatish</button>
+<script>
+let jamiQiymat = 0
+</script>
+</body>
+</html>
